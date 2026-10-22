@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriNova | Cocina sin preocuparte</title>
+    <!-- Tipografías: Comfortaa (Principal), DM Sans (Texto) y Lora (Citas) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="brand btn-interactive">
+                <img src="assets/icon.png" alt="Icono NutriNova" class="logo-icon">
+                <img src="assets/nombre.png" alt="NutriNova" class="logo-name">
+            </a>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="nav-links">
+                <a href="#como-funciona" class="btn-interactive">Cómo funciona</a>
+                <a href="#mision-vision" class="btn-interactive">Nosotros</a>
+                <a href="#valores" class="btn-interactive">Valores</a>
+                <a href="#descargar" class="btn-primary-nav btn-interactive">Descargar App</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero (Principal) -->
+    <section class="hero" id="inicio">
+        <div class="hero-content fade-in">
+            <h1>Cocina sin preocuparte. <br><span>Come a tu manera.</span></h1>
+            <p class="hero-subtitle">NutriNova simplifica tu vida. Elige lo que quieres comer, nosotros armamos la receta y tu lista de la compra exacta. Sin conocimientos de cocina, sin estrés.</p>
+            <div class="hero-buttons">
+                <a href="#como-funciona" class="btn-primary btn-interactive">Descubre cómo</a>
+                <a href="#mision-vision" class="btn-secondary btn-interactive">Nuestra Misión</a>
+            </div>
+            <p class="quote">"Transformando la alimentación de forma accesible y creativa."</p>
+        </div>
+        <div class="hero-image fade-in delay">
+            <!-- Estética de lista de la compra animada -->
+            <div class="shopping-list-card">
+                <h3>Lista de la Compra</h3>
+                <ul>
+                    <li><span class="check">✔</span> Tomates cherry</li>
+                    <li><span class="check">✔</span> Aguacate</li>
+                    <li><span class="check">✔</span> Quinoa</li>
+                    <li class="pending"><span class="check"></span> Salmón fresco</li>
+                    <li class="pending"><span class="check"></span> Espinacas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Cómo Funciona -->
+    <section class="how-it-works" id="como-funciona">
+        <h2 class="section-title fade-in">Tu semana, organizada en 3 pasos</h2>
+        <div class="steps-grid">
+            <div class="step-card fade-in">
+                <div class="step-number">1</div>
+                <h3>Elige qué comer</h3>
+                <p>Olvídate de buscar recetas complejas. Selecciona los platos que se te antojan y nosotros nos encargamos del resto.</p>
+            </div>
+            <div class="step-card fade-in delay-1">
+                <div class="step-number">2</div>
+                <h3>Compra inteligente</h3>
+                <p>Generamos una lista de la compra exacta con los ingredientes que necesitas. Compras solo lo que vas a usar, ahorrando dinero y evitando el desperdicio.</p>
+            </div>
+            <div class="step-card fade-in delay-2">
+                <div class="step-number">3</div>
+                <h3>Cocina y disfruta</h3>
+                <p>Sigue pasos guiados y simplificados. Consigue una vida alimentaria saludable sin necesidad de ser un experto en nutrición ni cocina.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Misión y Visión -->
+    <section class="mission-vision" id="mision-vision">
+        <div class="mv-container">
+            <div class="mv-text fade-in">
+                <h2>Nuestra Misión</h2>
+                <p>Nuestra misión es que las personas puedan cocinar sin preocuparse por tener que elaborar una receta o pensar qué comprar. Queremos que vayas al súper sabiendo únicamente lo que vas a cocinar, que elijas lo que te gusta y logres una vida alimentaria más saludable, sin requerir conocimientos de nutrición ni cocina.</p>
+            </div>
+            <div class="mv-text fade-in delay-1">
+                <h2>Nuestra Visión</h2>
+                <p>Queremos expandirnos mundialmente para que todo el mundo pueda alcanzar su estilo de vida alimentario deseado de una manera fácil y accesible. Buscamos generar un impacto global positivo a la vez que aseguramos la rentabilidad y sostenibilidad de nuestra aplicación.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores -->
+    <section class="values" id="valores">
+        <h2 class="section-title fade-in">Los valores que nos mueven</h2>
+        <div class="values-grid">
+            <div class="value-item fade-in">
+                <h3>Transparencia</h3>
+                <p>Claridad total con nuestros usuarios, mostrándote exactamente qué comes y por qué.</p>
+            </div>
+            <div class="value-item fade-in delay-1">
+                <h3>Accesibilidad</h3>
+                <p>Una herramienta diseñada para todos, sin importar su nivel de conocimientos.</p>
+            </div>
+            <div class="value-item fade-in delay-2">
+                <h3>Simplicidad</h3>
+                <p>Facilidad absoluta desde que decides qué comer hasta que pones el plato en la mesa.</p>
+            </div>
+            <div class="value-item fade-in delay-3">
+                <h3>Creatividad</h3>
+                <p>Te ayudamos a encontrar maneras deliciosas y diversas de alimentarte mejor cada día.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Pre-Footer (Verde) -->
+    <section class="cta-section" id="descargar">
+        <div class="cta-content fade-in">
+            <h2>Como ese amigo que te cuida</h2>
+            <p>Estamos aquí para simplificar tu trabajo en la cocina y cuidar de ti y de los tuyos.</p>
+            <a href="#" class="btn-yellow btn-interactive">Únete a NutriNova hoy</a>
+        </div>
+    </section>
+
+    <!-- Footer Oscuro -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="brand filter-white">
+                    <img src="assets/icon.png" alt="Icono NutriNova" class="logo-icon">
+                    <img src="assets/nombre.png" alt="NutriNova" class="logo-name">
+                </div>
+                <p>Tu asistente para una vida alimentaria más saludable y sin estrés.</p>
+            </div>
+            <div class="footer-links">
+                <p class="footer-title">Legal</p>
+                <a href="#" class="btn-interactive">Términos y Condiciones</a>
+                <a href="#" class="btn-interactive">Política de Privacidad</a>
+            </div>
+            <div class="footer-links">
+                <p class="footer-title">Enlaces</p>
+                <a href="#mision-vision" class="btn-interactive">Misión</a>
+                <a href="#mision-vision" class="btn-interactive">Visión</a>
+                <a href="#valores" class="btn-interactive">Valores</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NutriNova. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
